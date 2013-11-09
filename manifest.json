@@ -4,9 +4,18 @@
 		"email": "chenpaul914@gmail.com"
 	},
 
-	"location": ["ticket_sidebar", "new_ticket_sidebar"],
+	"location": "ticket_sidebar",
 	"defaultLocale": "en",
 	"private": true,
 	"frameworkVersion": "1.0",
-	"version": "0.05"
+	"version": "0.1",
+
+	"parameters": [
+		{
+			"name": "city",
+			"type": "text",
+			"required": true,
+			"default": "Melbourne"
+		}
+	]
 }
