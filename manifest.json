@@ -4,10 +4,13 @@
 		"email": "chenpaul914@gmail.com"
 	},
 
-	"frameworkVersion": "0.5",
 	"location": "ticket_sidebar",
 	"defaultLocale": "en",
 	"private": true,
+	"singleInstall": true,
+	"frameworkVersion": "1.0",
+	"version": "0.1",
+
 	"parameters": [
 		{
 			"name": "city",

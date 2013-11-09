@@ -10,18 +10,18 @@
 		},
 
 		events: {
-			'app.activated': 'fetchWeather',
+			'app.activated': 'requestWeather',
 
-			'fetchWeather.done': function(data){
+			'requestWeather.done': function(data){
 				this.renderWeather(data || {});
 			},
 
-			'fetchWeather.fail': function(data){
+			'requestWeather.fail': function(data){
 				this.switchTo('fetch_fail');
 			}
 		},
 
-		fetchWeather: function(){
+		requestWeather: function(){
 			this.ajax('fetchWeather');
 		},
 
