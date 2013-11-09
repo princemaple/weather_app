@@ -21,6 +21,10 @@
 			}
 		},
 
+		fetchWeather: function(){
+			this.ajax('fetchWeather');
+		},
+
 		renderWeather: function(data){
 			this.weatherData = data;
 			console.log(data);
