@@ -11,8 +11,13 @@
 
 		events: {
 			'app.activated': 'fetchWeather',
+
 			'fetchWeather.done': function(data){
 				this.renderWeather(data || {});
+			},
+
+			'fetchWeather.fail': function(data){
+				this.switchTo('fetch_fail');
 			}
 		},
 

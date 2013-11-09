@@ -5,14 +5,15 @@
 	},
 
 	"frameworkVersion": "0.5",
-	"location": "user_sidebar",
+	"location": "ticket_sidebar",
 	"defaultLocale": "en",
 	"private": true,
 	"parameters": [
 		{
 			"name": "city",
 			"type": "text",
-			"required": true
+			"required": true,
+			"default": "Melbourne"
 		}
 	]
 }

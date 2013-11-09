@@ -11,5 +11,16 @@
 	"loading": {
 		"value": "Hello World",
 		"title": "testing"
+	},
+
+	"fetch": {
+		"done": {
+			"value": "Good",
+			"title": "fetch success"
+		},
+		"fail": {
+			"value": "Noooooooo!",
+			"title": "fetch failure"
+		}
 	}
 }
