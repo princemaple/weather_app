@@ -1,4 +1,6 @@
 {
+	"name": "Weather",
+
 	"author": {
 		"name": "Po Chen",
 		"email": "chenpaul914@gmail.com"
@@ -8,7 +10,7 @@
 	"defaultLocale": "en",
 	"private": true,
 	"frameworkVersion": "1.0",
-	"version": "0.1",
+	"version": "0.9",
 
 	"parameters": [
 		{
