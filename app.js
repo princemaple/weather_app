@@ -1,7 +1,7 @@
 (function(){
 
 	return {
-		defaultState: 'loading',
+		defaultState: 'debug',
 
 		requests: {
 			fetchWeather: {
