@@ -1,5 +1,7 @@
 {
 	"app": {
+		"package": "weather_app",
+		"description": "this app helps agents be aware of the weather",
 		"parameters": {
 			"city": {
 				"label": "City",

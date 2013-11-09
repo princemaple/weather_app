@@ -1,18 +1,35 @@
 (function(){
 
 	return {
-		defaultState: 'debug',
+		defaultState: 'loading',
 
 		requests: {},
 
 		events: {
-			'app.activated': 'debug'
+			'app.activated': function(){
+				console.log(this.currentState);
+				this.switchTo('debug');
+				console.log(this.currentState);
+				this.switchTo('fetch_fail');
+				console.log(this.currentState);
+			},
+
+			'requestWeather.done': function(data){
+				this.renderWeather(data || {});
+			},
+
+			'requestWeather.fail': function(data){
+				this.switchTo('fetch_fail');
+			}
 		},
 
-		debug: function(){
-			alert("started");
-			console.log("launched");
+		requestWeather: function(){
+			this.ajax('fetchWeather');
+		},
+
+		renderWeather: function(data){
+			this.weatherData = data;
+			console.log(data);
 		}
 	};
-
 }());

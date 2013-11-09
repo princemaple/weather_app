@@ -4,7 +4,7 @@
 		"email": "chenpaul914@gmail.com"
 	},
 
-	"location": "ticket_sidebar",
+	"location": "user_sidebar",
 	"defaultLocale": "en",
 	"private": true,
 	"frameworkVersion": "1.0",
