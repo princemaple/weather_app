@@ -10,7 +10,7 @@
 		},
 
 		events: {
-			'app.activated': 'onActivated',
+			'app.activated': 'debug',
 
 			'requestWeather.done': function(data){
 				this.renderWeather(data || {});
@@ -21,7 +21,7 @@
 			}
 		},
 
-		onActivated: function(){
+		debug: function(){
 			alert("started");
 			console.log("launched");
 		},
