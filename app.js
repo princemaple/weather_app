@@ -38,7 +38,7 @@
 			}
 
 			this.weather = data;
-			console.log(data);
+			// console.log(data);
 
 			if (data.cod != "200") {
 				alert("Please update your city name, the current one (" + this.setting('city') + ") cannot be found");
