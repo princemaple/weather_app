@@ -1,0 +1,15 @@
+{
+	"app": {
+		"parameters": {
+			"city": {
+				"label": "City",
+				"helpText": "The city where you are right now"
+			}
+		}
+	},
+
+	"loading": {
+		"value": "Hello World",
+		"title": "testing"
+	}
+}

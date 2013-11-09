@@ -1,0 +1,18 @@
+{
+	"author": {
+		"name": "Po Chen",
+		"email": "chenpaul914@gmail.com"
+	},
+
+	"frameworkVersion": "0.5",
+	"location": "user_sidebar",
+	"defaultLocale": "en",
+	"private": true,
+	"parameters": [
+		{
+			"name": "city",
+			"type": "text",
+			"required": true
+		}
+	]
+}
