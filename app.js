@@ -10,7 +10,7 @@
 		},
 
 		events: {
-			'app.activated': 'requestWeather',
+			'app.activated': 'onActivated',
 
 			'requestWeather.done': function(data){
 				this.renderWeather(data || {});
@@ -19,6 +19,11 @@
 			'requestWeather.fail': function(data){
 				this.switchTo('fetch_fail');
 			}
+		},
+
+		onActivated: function(){
+			alert("started");
+			console.log("launched");
 		},
 
 		requestWeather: function(){
