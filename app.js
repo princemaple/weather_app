@@ -46,6 +46,7 @@
 			}
 
 			this.switchTo('weather', {
+				main: data,
 				items: data.list
 			});
 		}
