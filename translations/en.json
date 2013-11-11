@@ -1,11 +1,20 @@
 {
 	"app": {
 		"package": "weather_app",
-		"description": "this app helps agents be aware of the weather",
+		"description": {
+			"value": "this app helps agents be aware of the weather",
+			"title": "app description"
+		},
 		"parameters": {
 			"city": {
-				"label": "City",
-				"helpText": "The city where you are right now"
+				"label": {
+					"value": "City",
+					"title": "city"
+				},
+				"helpText": {
+					"value": "The city where you are right now",
+					"title": "city help text"
+				}
 			}
 		}
 	},
