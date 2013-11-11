@@ -24,5 +24,10 @@
 			"value": "Noooooooo!",
 			"title": "fetch failure"
 		}
+	},
+
+	"yolo": {
+		"value": "yoooooooolo",
+		"title": "only for debugging"
 	}
 }

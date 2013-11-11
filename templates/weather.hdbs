@@ -4,5 +4,6 @@
     {{#items}}
     <li>Day {{count}}: {{temp.min}} ~ {{temp.max}}, {{weather.description}}</li>
     {{/items}}
+    {{t "yolo"}}
   </ul>
 </div>
