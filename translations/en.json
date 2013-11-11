@@ -21,8 +21,13 @@
 			"title": "fetch success"
 		},
 		"fail": {
-			"value": "Noooooooo!",
+			"value": "Noooooooo! Some error occurred",
 			"title": "fetch failure"
 		}
+	},
+
+	"day": {
+		"value": "Day",
+		"title": "day!"
 	}
 }
