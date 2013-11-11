@@ -6,7 +6,7 @@
 		requests: {
 			fetchWeather: function(){
 				return {
-					url: this.helpers.fmt("http://api.openweathermap.org/data/2.5/forecast/daily?q=%@&mode=json&units=metric&cnt=3", this.setting('city')),
+					url: this.helpers.fmt("http://api.openweathermap.org/data/2.5/forecast/daily?q=%@&mode=json&units=metric&cnt=%@", this.setting('city'), this.setting('range')),
 					type: 'GET',
 					data: {}
 				};

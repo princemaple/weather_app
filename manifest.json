@@ -18,6 +18,12 @@
 			"type": "text",
 			"required": true,
 			"default": "Melbourne,AU"
+		},
+		{
+			"name": "range",
+			"type": "number",
+			"required": false,
+			"default": 3
 		}
 	]
 }

@@ -9,11 +9,21 @@
 			"city": {
 				"label": {
 					"value": "City",
-					"title": "city"
+					"title": "city label"
 				},
 				"helpText": {
 					"value": "The city where you are right now",
 					"title": "city help text"
+				}
+			},
+			"range": {
+				"label": {
+					"value": "Days",
+					"title": "days label"
+				},
+				"helpText": {
+					"value": "How many days to cover, including today",
+					"title": "forcast range helptext"
 				}
 			}
 		}
