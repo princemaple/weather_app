@@ -1,6 +1,5 @@
 {
 	"app": {
-		"package": "weather_app",
 		"description": "this app helps agents be aware of the weather",
 		"parameters": {
 			"city": {
@@ -21,13 +20,13 @@
 			"title": "fetch success"
 		},
 		"fail": {
-			"value": "Noooooooo!",
+			"value": "Noooooooo! Some error occurred",
 			"title": "fetch failure"
 		}
 	},
 
-	"yolo": {
-		"value": "yoooooooolo",
-		"title": "only for debugging"
+	"day": {
+		"value": "Day",
+		"title": "day!"
 	}
 }
