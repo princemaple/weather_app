@@ -5,8 +5,10 @@
 
 		requests: {
 			fetchWeather: function(){
+				var unit = (this.setting('unit').toLowerCase() === 'f') ?
+						'imperial' : 'metric';
 				return {
-					url: this.helpers.fmt("http://api.openweathermap.org/data/2.5/forecast/daily?q=%@&mode=json&units=metric&cnt=%@", this.setting('city'), this.setting('range')),
+					url: this.helpers.fmt("http://api.openweathermap.org/data/2.5/forecast/daily?q=%@&mode=json&units=%@&cnt=%@", this.setting('city'), unit, this.setting('range')),
 					type: 'GET',
 					data: {}
 				};
@@ -45,6 +47,7 @@
 				return;
 			}
 
+			data.unit = (this.setting('unit').toLowerCase() === 'f') ? 'F' : 'C';
 			this.switchTo('weather', {
 				main: data,
 				items: data.list

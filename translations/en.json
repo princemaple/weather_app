@@ -25,6 +25,16 @@
 					"value": "How many days to cover, including today",
 					"title": "forcast range helptext"
 				}
+			},
+			"unit": {
+				"label": {
+					"value": "Unit",
+					"title": "temperature unit"
+				},
+				"helpText": {
+					"value": "Please fill in either `C` or `F` with NO quotes",
+					"title": "temperature unit helptext"
+				}
 			}
 		}
 	},

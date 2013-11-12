@@ -24,6 +24,12 @@
 			"type": "number",
 			"required": false,
 			"default": 3
+		},
+		{
+			"name": "unit",
+			"type": "text",
+			"required": false,
+			"default": "C"
 		}
 	]
 }
